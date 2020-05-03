@@ -14,7 +14,7 @@ body {
 
 header {
     height: 800px;
-    background-image: url(/img/hero-background.jpg);
+    background-image: url(../../img/hero-background.jpg);
     background-size: cover;
 }
 
@@ -29,7 +29,7 @@ footer  {
 
 #about {
     height: 550px;
-    background-image: url(/img/about-me.jpg);
+    background-image: url(../../img/about-me.jpg);
     background-size: cover;
 }
 
@@ -81,6 +81,15 @@ ul {
 li {
     list-style: none;
     margin-right: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+li a:hover {
+    color: #ffea71;
 }
 
 h1 {
