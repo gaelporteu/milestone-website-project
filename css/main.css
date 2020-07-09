@@ -24,7 +24,8 @@ footer  {
 }
 
 #portfolio {
-    height: 1800px;
+    height: auto;
+    margin-bottom: 50px;
 }
 
 #about {
@@ -139,7 +140,7 @@ h2 {
 
 /* FOOTER STYLES */
 
-a.email-me {
+a {
     text-decoration: none;
     color: #ffffff;
 }
