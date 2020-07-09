@@ -139,7 +139,7 @@ h2 {
 
 /* FOOTER STYLES */
 
-.email-me {
+a .email-me {
     text-decoration: none;
     color: #ffffff;
 }
