@@ -139,6 +139,11 @@ h2 {
 
 /* FOOTER STYLES */
 
+.email-me {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 footer .full-width {
     font-size: 24px;
 }
@@ -159,7 +164,3 @@ footer h4 {
     margin-top: 50px;
 }
 
-.email-me {
-    text-decoration: none;
-    color: #ffffff;
-}
