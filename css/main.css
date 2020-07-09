@@ -158,3 +158,8 @@ footer p:nth-child(3n+0) {
 footer h4 {
     margin-top: 50px;
 }
+
+.email-me {
+    text-decoration: none;
+    color: #ffffff;
+}
