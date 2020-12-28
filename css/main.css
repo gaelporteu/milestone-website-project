@@ -28,7 +28,8 @@ footer {
 }
 
 #portfolio {
-  height: 1800px;
+  height: auto;
+  margin-bottom: 50px;
 }
 
 #about {
