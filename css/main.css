@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  /* margin: 0; */
 }
 
 body {
@@ -13,8 +12,10 @@ body {
 }
 
 main {
-  width: 1200px;
-  margin: 0 auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -28,26 +29,32 @@ footer {
 }
 
 #portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: auto;
-  margin-bottom: 50px;
+  margin: 40px auto;
 }
 
 #about {
   height: 550px;
-  background: url(../img/about-me.jpg) no-repeat center / cover;
+  width: 100vw;
+  background: url(../img/about-me.jpg) top left / cover;
   padding: 0 50px;
 }
 
 .full-width {
-  width: 100%;
-  clear: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   overflow: auto;
   margin: 0 auto;
 }
 
 .half-width {
-  width: 50%;
-  float: left;
+  width: 550px;
 }
 
 .half-width:nth-of-type(2n + 2) {
@@ -188,7 +195,7 @@ footer h4 {
   }
 
   h1 {
-      padding: 0;
+    padding: 0;
   }
 
   div#portfolio {
@@ -229,22 +236,22 @@ footer h4 {
   }
 
   .align-right {
-      text-align: center;
+    text-align: center;
   }
 
   #portfolio h3 {
-      margin-top: 20px;
+    margin-top: 20px;
   }
 
   #about {
-      margin-top: 40px;
+    margin-top: 40px;
   }
 
   #about h2 {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   footer {
-      margin-top: 40px;
+    margin-top: 40px;
   }
 }
