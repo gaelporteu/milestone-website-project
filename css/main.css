@@ -188,6 +188,10 @@ a {
   color: #ffffff;
 }
 
+footer a:hover {
+  color: #ffea71;
+}
+
 footer .full-width {
   display: flex;
   flex-flow: row nowrap;
