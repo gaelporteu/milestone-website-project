@@ -124,6 +124,16 @@ h2 {
 
 #portfolio figure {
   margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.2);
 }
 
 #portfolio h3 {
