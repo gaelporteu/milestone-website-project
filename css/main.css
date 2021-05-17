@@ -66,6 +66,12 @@ footer {
   text-align: right;
 }
 
+/* FUNCTION STYLES */
+
+.d-flex {
+  display: flex;
+}
+
 /* HEADER STYLES */
 
 nav {
@@ -168,10 +174,12 @@ h2 {
   width: 60%;
 }
 
-#about h2 {
-  /* text-align: center;
-  align-self: center; */
-  margin-bottom: 0;
+#about img {
+  margin-right: 2vw;
+}
+
+#about h3 {
+  margin-top: 0;
 }
 
 /* FOOTER STYLES */
@@ -280,8 +288,11 @@ footer h4 {
   }
 
   #about h2 {
-    margin-bottom: 0;
     align-self: center;
+  }
+
+  .d-flex {
+    flex-direction: column;
   }
 
   footer h4 {
