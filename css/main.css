@@ -45,7 +45,7 @@ footer {
   align-items: flex-start;
   height: 550px;
   width: 100vw;
-  background: url(../img/about-me.jpg) top left / cover;
+  background: url(../img/about-me.jpg) top left / cover no-repeat;
   padding: 0 50px;
 }
 
@@ -70,6 +70,10 @@ footer {
 
 .d-flex {
   display: flex;
+}
+
+.col {
+  max-width: 550px;
 }
 
 /* HEADER STYLES */
@@ -170,6 +174,7 @@ h2 {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  align-items: center;
   font-size: 24px;
   width: 60%;
 }
@@ -285,6 +290,7 @@ footer h4 {
 
   #about {
     margin-top: 40px;
+    height: 650px;
   }
 
   #about h2 {
