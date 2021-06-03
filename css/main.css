@@ -43,10 +43,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 550px;
+  /* height: 800px; */
   width: 100vw;
   background: url(../img/about-me.jpg) top left / cover no-repeat;
   padding: 0 50px;
+  clear: both;
+  overflow: auto;
 }
 
 .full-width {
@@ -187,6 +189,24 @@ h2 {
   margin-top: 0;
 }
 
+#about figure {
+  margin: 0;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+#about figcaption {
+  font-size: 1.1rem;
+}
+
+#about figure .bi.bi-bootstrap-fill {
+  margin-top: 7px;
+}
+
+#about figure .wordpress {
+  margin-top: 4px;
+}
+
 /* FOOTER STYLES */
 footer {
   display: flex;
@@ -225,6 +245,10 @@ footer .full-width {
 
 footer h4 {
   padding: 40px 0;
+}
+
+.fab {
+  font-size: 5rem;
 }
 
 /* Mobile responsive */
@@ -290,7 +314,9 @@ footer h4 {
 
   #about {
     margin-top: 40px;
-    height: 650px;
+    padding: 0 5px;
+    height: 900px;
+    overflow: hidden;
   }
 
   #about h2 {
@@ -303,5 +329,18 @@ footer h4 {
 
   footer h4 {
     margin: 0;
+  }
+}
+
+/* SWIPER RESPONSIVE */
+@media (max-width: 760px) {
+  .swiper-button-next {
+    right: 20px;
+    transform: rotate(90deg);
+  }
+
+  .swiper-button-prev {
+    left: 20px;
+    transform: rotate(90deg);
   }
 }
